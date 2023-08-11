@@ -1,0 +1,30 @@
+.image-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Esto le permite crecer y consumir 1 fracción del espacio disponible */
+    background-image: url('/images/2837619.webp');
+    /* Cambia esto por la ruta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-width: 50%;
+    min-height: 50vh;
+    z-index: -1;
+}
+
+.person-bg {
+    position: absolute;
+    top: 66%;
+    right: -150px;
+    /* Esto le permite crecer y consumir 1 fracción del espacio disponible */
+    background-image: url('/images/persons.png');
+    /* Cambia esto por la ruta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-width: 45%;
+    min-height: 45vh;
+}
